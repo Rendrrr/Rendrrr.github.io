@@ -38,10 +38,9 @@ a:hover{
 .fa-brands{
     margin: 0;
     padding: 0;
-    background-color: black;
     width: 8%;
+    background-color: black;
     height: 80px;
-    position: fixed;
     bottom: 0;
     font-size: 80px;
     color: #1DA1F2;
