@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>4</title>
+    <title>Formulár</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chosen/chosen.css">
+    <link rel="stylesheet" href="4.css">
 </head>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>KONTAKT</legend>
 
+            <label for="name">Meno <input type="text" name="name" id="name"></label>
+            <label for="email">Email <input type="text" name="email" id="email"></label>
+            <label for="website">Web <input type="text" name="website" id="website"></label>
+
+            <select class="Krajina" name="country">
+                <option value=""></option>
+                <option value="United States">United States</option>
+                <option value="Slovakia" selected>Slovakia</option>
+                <option value="Albania" disabled>Albania</option>
+            </select>
+
+            <label for="message">Správa</label>
+            <textarea name="message" id="message"></textarea>
+            <button type="submit" id="submit">Poslať</button>
+        </fieldset>
+    </form>
+
+    <script src="chosen/chosen.proto.min.js"></script>
+    <script>$(".chosen-select").chosen();</script>
 <body>
     
 </body>
